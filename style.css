@@ -1,0 +1,74 @@
+/*
+Theme Name: Shaghayegh, Yassi, Anahita Customized Theme
+*/
+
+html{height:100%;}
+body{ 
+    font-family: 'Muli', sans-serif;
+    font-size:19px;
+    color:#000;
+    margin:0;
+    padding:0;
+    background:#ffffff; }
+a{
+    color:#bc6500;
+    text-decoration:none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover{
+    text-decoration:none;
+    color:#125284;}
+
+a:focus{
+    text-decoration:none;
+    outline:none; color: 125284;}
+
+input, select, textarea{ font-family: 'Muli', sans-serif; outline: none; font-size: 15px}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: #fff;}
+
+img{max-width:100%; height:auto;}
+
+p{padding-bottom:30px; margin: 0; }
+
+h1, h2, h3, h4, h5{margin: 0; padding:0;}
+
+h1{font-size: 33px;}
+.arrow{
+	background-image:url('http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/09/arrow.png');
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#sidebar ul{padding-left:0;}
+#content{
+  	padding-top: 73.3px;
+}
+#content h1{
+    padding-bottom: 48px;
+}
+/*Shaghayegh To Change Ends*/
+
+/*--------------------------------------------Shaghayegh experience here---------------------------------------------------------*/
+ul.nav.navbar-nav li{ width:20%;}
+.navbar-nav{float:none;    text-align: center;     background-color: #53672C;}
+.navbar-default .navbar-nav>li>a{color:#fff;}
+.navbar{margin-bottom: 0px;}
+#navWrap{padding:0px;}
+.navbar-default{background-color:#fff;}
+.nav-right-wrap{float:left;}
+.carousel{
+    background: #2f4357;
+    /*margin-top: 20px;*/
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}

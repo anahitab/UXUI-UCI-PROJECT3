@@ -95,7 +95,7 @@ p.ways-title-wrap{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    
+  
 }
 #quoteWrap{
     background-color: #9FC17B;
@@ -107,12 +107,33 @@ p.ways-title-wrap{
     font-weight: bold;
     padding-bottom: 17px;
 }
-#waysWrap h2{
+#waysWrap h2, #myCarousel2 h2{
     text-align:center;
     font-weight:bold;
     padding-bottom: 24px;
+    text-transform: capitalize;
 }
 #waysWrap{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+#myCarousel2{
+    background: #9fc17a;
+    padding-top: 49px;
+    padding-bottom: 38px;
+}
+.ways-btn-wrap.gray a{
+    background-color: #F0F3EB;
+    color: #000;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.ways-btn-wrap.gray{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#myCarousel2 .carousel-inner{
+    padding-bottom: 22px;
 }

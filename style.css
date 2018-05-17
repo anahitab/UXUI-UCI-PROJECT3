@@ -72,3 +72,47 @@ ul.nav.navbar-nav li{ width:20%;}
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
 }
+.ways-icon-wrap img{ height:140px; width:140px; }
+.ways-icon-wrap{    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 14px solid #FFAB43;
+    padding-top: 16px;
+    border-radius: 4px;
+}
+p.ways-title-wrap{
+    font-size:30px;
+}
+.ways-btn-wrap.green a{ 
+    background-color: #53672C;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.ways-btn-wrap.green{
+    margin-top:5%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+#quoteWrap{
+    background-color: #9FC17B;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+#quoteWrap h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+#waysWrap h2{
+    text-align:center;
+    font-weight:bold;
+    padding-bottom: 24px;
+}
+#waysWrap{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

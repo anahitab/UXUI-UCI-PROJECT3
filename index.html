@@ -22,7 +22,28 @@
   <link rel="stylesheet" href="style.css">
 
   <title>Someone Cares</title>
-
+  <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+      
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
   </head>
 </head>
 
@@ -38,7 +59,16 @@
                     <div class="col-md-3"><i class="fas fa-search"></i> Search</div>
                     <div class="col-md-3"><i class="fas fa-question"></i> Need Help</div>
                     <div class="col-md-3"><i class="fas fa-envelope"></i> Sign Up</div>
-                    <div class="col-md-3"><a href="">Donate</a></div>
+                    <div class="col-md-3"><div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Donate <i class="fas fa-caret-down"></i></button>
+                          <div id="myDropdown" class="dropdown-content">
+                            <a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/">Home</a>
+                            <a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/about-us.html">About</a>
+                            <a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/donate.html">Events</a>
+                            <a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/donate.html">Gallery</a>
+                            <a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/donate.html">Contact Us</a>
+                          </div>
+                        </div></div>
 
                   </div>
               </div>
@@ -46,11 +76,12 @@
 
             <div class="container-fluid" id="navWrap">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="/services.html">Events</a></li>
-                <li><a href="/services.html">Gallery</a></li>
-                <li><a href="#">Contact Us</a></li>
+
+                <li class="active"><a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/">Home</a></li>
+               <li></li> <a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/about-us.html">About</a></li>
+               <li></li> <a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/donate.html">Events</a></li>
+                <li></li><a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/donate.html">Gallery</a></li>
+                <li></li><a href="https://ssheedeh.github.io/UXUI-UCI-PROJECT3/donate.html">Contact Us</a></li>
               </ul>
             </div>
           

@@ -1,12 +1,14 @@
 /*
 Theme Name: Shaghayegh, Yassi, Anahita Customized Theme
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 html{height:100%;}
 body{ 
-    font-family: 'Muli', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:19px;
-    color:#000;
+    color:#4C4B49;
     margin:0;
     padding:0;
     background:#ffffff; }
@@ -27,7 +29,7 @@ a:focus{
     text-decoration:none;
     outline:none; color: 125284;}
 
-input, select, textarea{ font-family: 'Muli', sans-serif; outline: none; font-size: 15px}
+input, select, textarea{ font-family: 'Roboto', sans-serif; outline: none; font-size: 15px}
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: #fff;}
 
@@ -38,19 +40,24 @@ p{padding-bottom:30px; margin: 0; }
 h1, h2, h3, h4, h5{margin: 0; padding:0;}
 
 h1{font-size: 33px;}
-.arrow{
-	background-image:url('http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/09/arrow.png');
-}
+
 .row {
     margin-right: 0px;
     margin-left: 0px;
 }
-#sidebar ul{padding-left:0;}
-#content{
-  	padding-top: 73.3px;
+.submit-wrap{
+    background-color: #900902;
+    border-color: #900902;
+    color: #dc7900;
+    width: 33%;
+    height: 43px;
+    font-weight: bold;
+    font-size: 22px;
 }
-#content h1{
-    padding-bottom: 48px;
+.form-donate{
+    background-color: #EEEDED;
+    height: 45px;
+    border-color: #EEEDED;
 }
 /*Shaghayegh To Change Ends*/
 
@@ -152,6 +159,10 @@ p.ways-title-wrap{
     height: 290px;
     padding-top:99px;
     padding-bottom: 94px;
+    margin-bottom: 0px;
+}
+#tabsDonateWrap{
+    margin-top:30px;
 }
 .jumbotron h1{
     text-align:center;
@@ -177,7 +188,8 @@ p.ways-title-wrap{
 .tablink:hover {
     background-color: #777;
 }
-
+.nav.navbar-nav a {color:#fff;}
+.nav.navbar-nav a:hover{color:#4C4B49;}
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
     color: white;
@@ -191,3 +203,74 @@ p.ways-title-wrap{
 #Contact {background-color: #ECE7E7;  color:#4C4B49;}
 #About {background-color: #ECE7E7;  color:#4C4B49;}
 #Home img{width:250px;margin:auto;}
+#storyWrap{
+    padding-top:31px;
+    background-color: #9fc17a;
+}
+#kidWrapDonate{
+    background-image:url('./kid-sad.png');
+    background-size: cover;
+    height:800px;
+    height: 714px;
+    background-position: center center;
+}
+#formWrapDonate{
+    background-color: rgba(159, 193, 123, 0.55);
+    padding: 72px 30px 279px 55px;
+}
+#formWrapDonateRight{
+    padding: 750px 35px 40px 35px;
+}
+#kidWrapDonate h2{
+    color: #dc7a00;
+    font-weight: bold;
+}
+.orange{
+    color: #dc7a00;
+}
+#navRight{
+    margin-top: 45px;
+}
+/*drop down menu*/
+.dropbtn {
+    background-color: #E98306;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #E98306;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}

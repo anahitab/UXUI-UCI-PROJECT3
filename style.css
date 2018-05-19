@@ -274,7 +274,7 @@ p.ways-title-wrap{
 .dropdown a:hover {background-color: #ddd}
 
 .show {display:block;}
-#footerWrap{
+#footerWrap, footer{
     background-color: #DCDDDB;
     height:200px;
 }
